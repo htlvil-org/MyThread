@@ -6,6 +6,7 @@ public class ThDog implements Runnable {
 	private int 	from = 0, 
 					to = 0;
 
+	//new comment - 1 - 
 	public ThDog(String nameDog, int from, int to) {
 		super();
 		this.nameDog = nameDog;
