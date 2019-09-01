@@ -1,13 +1,13 @@
 package pkgThread;
 
-public class ThDog implements Runnable {
+public class ThCat implements Runnable {
 	private static final int  MAX_SLEEP = 4000;
 	private String 	nameDog = null;
 	private int 	from = 0, 
 					to = 0;
 
 	//new comment - 51 - 
-	public ThDog(String nameDog, int from, int to) {
+	public ThCat(String nameDog, int from, int to) {
 		super();
 		this.nameDog = nameDog;
 		this.from = from;
